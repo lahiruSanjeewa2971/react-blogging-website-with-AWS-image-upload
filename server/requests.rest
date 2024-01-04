@@ -1,0 +1,20 @@
+# POST http://localhost:3000/signup
+# Content-Type: application/json
+
+# {
+#     "fullname" : "Lahiru Sanjeewa",
+#     "email": "lahiru.s@yahoo.co",
+#     "password": "Lahiru10"
+# }
+
+
+# POST http://localhost:3000/signin
+# Content-Type: application/json
+
+# {
+#     "email": "lahiru.s@yahoo.co",
+#     "password": "Lahiru10"
+# }
+
+GET http://localhost:3000/get-upload-url
+
