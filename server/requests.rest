@@ -1,3 +1,7 @@
+# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YjBlMmM0Zjc5MTFjMzU3YjJmMjJlOCIsImlhdCI6MTcwNjA5MTIwNH0.gLKmuE25KBGrJ0V-ULdgzax1Z3ba96M8H1Hoy8_x7Mc
+
+# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OTEyZmVmMjcxYmFjNTljZDVkZGQ3OSIsImlhdCI6MTcwNjcyNzQ2OX0.XoeFz0sawVKLNARybSr7LWjD2prHniVmfi3OkaQLpWo","profile_img":"https://api.dicebear.com/6.x/adventurer-neutral/svg?seed=Jack","username":"thousandsunny2971","fullname":"thousandsunny2971
+
 # POST http://localhost:3000/signup
 # Content-Type: application/json
 
@@ -16,5 +20,35 @@
 #     "password": "Lahiru10"
 # }
 
-GET http://localhost:3000/get-upload-url
+# GET http://localhost:3000/get-upload-url
 
+# POST http://localhost:3000/create-blog
+# Content-Type: application/json
+
+# {
+#     "blog-name" : "Test blog 01"
+# }
+
+# POST http://localhost:3000/create-blog
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YjBlMmM0Zjc5MTFjMzU3YjJmMjJlOCIsImlhdCI6MTcwNjA5MTIwNH0.gLKmuE25KBGrJ0V-ULdgzax1Z3ba96M8H1Hoy8_x7Mc
+ 
+# {
+#     "title" : "Test blog 02",
+#     "banner": "https://loaclhost.com",
+#     "des": "this is short description",
+#     "content": {
+#         "blocks": [1, 2]
+#     },
+#     "tags": ["tag01", "tag02"]
+# }
+
+# POST http://localhost:3000/search-blogs
+# Content-Type: application/json
+
+# {
+#     "tag": "getsuga tensho"
+# }
+  
+
+  GET http://localhost:3000/trending-blogs

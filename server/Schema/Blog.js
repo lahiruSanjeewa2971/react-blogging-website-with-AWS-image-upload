@@ -56,7 +56,7 @@ const blogSchema = mongoose.Schema({
     }
 }, {
     timestamps: {
-        createdAt: 'joinedAt'
+        createdAt: 'publishedAt'
     }
 })
 
